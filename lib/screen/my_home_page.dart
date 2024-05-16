@@ -23,7 +23,7 @@ class _MyWidgetState extends State<MyHomePage> {
         title: const Text("My increment counter"),
       ),
       body: Center(
-        child: Text("นัยไปแล้ว $_counter ครั้ง"),
+        child: Text("นับไปแล้ว $_counter ครั้ง"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,        
